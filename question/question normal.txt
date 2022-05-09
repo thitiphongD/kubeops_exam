@@ -1,0 +1,54 @@
+Question normal
+
+1. Describe Git branching strategies (Git-flow, single branch, feature branch etc.) which you have used and what purpose does it serves.
+Ans : Git branching strategies make developer life is easy to work with a team, make build projects safely, and with no conflict.
+I’ve used Git-flow
+
+2. How do you revert a commit that has already been pushed and made public?
+Ans : use <git refolg> command will show the current commit history ID. and use <git revert> command commit with ID.
+
+3. How do you normally solve conflicts in a feature branch before merge? 
+
+
+
+4. “200 OK” what does it mean and show use case this HTTP Status?
+Ans : The request is OK.
+
+5. “201 Created” what does it mean and show use case this HTTP Status?
+Ans : The request is complete and new resources created
+
+6 “301 Moved Permanently” what does it mean and show use case this HTTP Status?
+Ans : The request page has move to new url.
+
+7. “400 Bad Request” what does it mean and how to identify the problem?
+Ans : The server not understand the request.
+
+8. “401 Unauthorized” what does it mean and how to identify the problem?
+Ans : The request page needs a username and password.
+
+9. “403 Forbidden” what does it mean and how to identify the problem?
+Ans : Access is forbidden to the request page.
+
+10. “404 Not Found” what does it mean and how to identify the problem?
+Ans : The server can not find the request page. 
+
+11. “500 Internal Server Error” what does it mean and how to identify the problem?
+Ans : The request not complete. Server met unexpected conditions
+
+12. “502 Bad Gateway” what does it mean and how to identify the problem?
+Ans : The request not complete. Server received an invalid response from upstream server.
+
+13.  “503 Service Unavailable” what does it mean and how to identify the problem?
+Ans : The request not complete. Server is temporarily overload or down.
+
+14. “504 Gateway Timeout” what does it mean and how to identify the problem?
+Ans : The gateway has timeout.
+
+15. What are Linux network tools do you use for troubleshooting network problems as well as usage scenarios for each tool?
+Ans : Linux network took help to analyze, maintain and troubleshoot difference problem with your server, network infrastructure and your domain name.
+
+ping kubeops.guru
+curl kubeops.guru
+wget kubeops.guru/somefile.txt
+ssh your_user@domain.com
+telnet kubeops.guru
