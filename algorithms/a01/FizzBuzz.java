@@ -9,5 +9,5 @@ class FizzBuzz {
         System.out.println(i % 15 != 0 ? i % 5 != 0 ? i % 3 != 0 ? i : "Fizz" : "Buzz" : "FizzBuzz");
       }
     }
-	}
+  }
 }
